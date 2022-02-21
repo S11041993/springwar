@@ -19,7 +19,7 @@ public class SpringwarApplication {
 		return "war file deployed";
 	}
 	
-	@GetMapping("/greeting")
+	@GetMapping("/greetings")
 	public String homes()
 	{
 		return "war file deployed successfully";
